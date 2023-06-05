@@ -8,8 +8,8 @@
         Title="簡易時鐘" Height="450" Width="800" ResizeMode="NoResize" Icon="/clock.png">
     <Grid>
         <TextBox x:Name="txtTime" HorizontalAlignment="Left" Height="111" Margin="48,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="466" FontSize="72" VerticalContentAlignment="Center"/>
-        <TextBox x:Name="txtDate" HorizontalAlignment="Left" Height="107" Margin="48,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="72" VerticalContentAlignment="Center"/>
-        <TextBox x:Name="txtWeekDay" HorizontalAlignment="Left" Height="107" Margin="304,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="210" FontSize="72" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txtDate" HorizontalAlignment="Left" Height="107" Margin="48,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251" FontSize="24" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txtWeekDay" HorizontalAlignment="Left" Height="107" Margin="304,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="210" FontSize="24" VerticalContentAlignment="Center"/>
         <Button x:Name="btnSetAlert" Content="設定鬧鐘" HorizontalAlignment="Left" Height="34" Margin="48,254,0,0" VerticalAlignment="Top" Width="88"/>
         <Button x:Name="btnCancelAlert" Content="取消鬧鐘" HorizontalAlignment="Left" Height="34" Margin="150,254,0,0" VerticalAlignment="Top" Width="88"/>
         <ComboBox x:Name="cmbHour" HorizontalAlignment="Left" Height="17" Margin="250,271,0,0" VerticalAlignment="Top" Width="62"/>
